@@ -1,0 +1,116 @@
+
+
+
+.testi {
+  padding: 180px 0 177px 0;
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 43px;
+  }
+  &-wrap {
+    overflow: hidden;
+  }
+  &-arrows {
+    display: flex;
+
+  }
+  &-arrow {
+    width: 70px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 0.5px solid #F1F1F1;
+    box-shadow: 0px 10px 12px rgba(198, 198, 198, 0.25);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-prev {
+    margin-right: 19px;
+  }
+  &-next {
+
+  }
+
+  &-card {
+    width: 586px;
+    height: 415px;
+    background: linear-gradient(151.16deg, #FFF8F8 10.38%, #F5F7FF 95.44%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 26px;
+    &__bottom {
+      margin-top: 37px;
+    }
+    &-user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__image {
+        margin-right: 13px;
+      }
+      &__text {
+        
+      }
+      &__name {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 156.5%;
+        color: #292930;
+      }
+      &__job {
+        font-size: 18px;
+        line-height: 156.5%;
+        color: #555555;
+      }
+    }
+  }
+  &-rev {
+    padding: 48px 44px 48px 37px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(146, 146, 146, 0.25);
+    border-radius: 7px;
+    // width: 534px;
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ECECEC;
+      padding-bottom: 19px;
+    }
+    &__company {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 156.5%;
+      color: #292930;
+      &-logo {
+        margin-right: 4px;
+      }
+    }
+    &__stars {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__star {
+
+    }
+    &__body {
+      margin-top: 19px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 156.5%;
+      color: #555555;
+      max-width: 460px;
+    }
+  }
+}

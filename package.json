@@ -40,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "core-js": "^2.5.7",
+    "swiper": "^8.4.6"
+  }
 }

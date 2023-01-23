@@ -1,0 +1,2 @@
+!function(){new Swiper(".testi-swiper",{slidesPerView:2,navigation:{nextEl:".testi-next",prevEl:".testi-prev",disabledClass:"testi-arrow__dis"}}),document.querySelectorAll(".case-accordion__nav");var e=document.querySelectorAll(".case-accordion");console.log(e)}();
+//# sourceMappingURL=bundle.js.map
