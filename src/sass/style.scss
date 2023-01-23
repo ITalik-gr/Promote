@@ -78,6 +78,8 @@ h3 {
 .page {
     &-text {
         display: flex;
+        position: relative;
+        z-index: 5;
         &_center {
             flex-direction: column;
             align-items: center;
@@ -120,6 +122,9 @@ h3 {
             &__price {
                 text-align: center;
             }
+            &_benifits {
+                max-width: 434px;
+            }
         }
         &__subtitle {
             font-size: 15px;
@@ -153,3 +158,4 @@ h3 {
 @import 'blocks/testi';
 @import 'blocks/case';
 @import 'blocks/price';
+@import 'blocks/benefits';
