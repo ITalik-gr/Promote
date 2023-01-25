@@ -17,6 +17,10 @@ p {
     margin: 0;
     padding: 0;
 }
+button, input {
+    outline: none;
+    border: none;
+}
 ul {
     padding: 0;
     margin: 0;
@@ -160,3 +164,4 @@ h3 {
 @import 'blocks/price';
 @import 'blocks/benefits';
 @import 'blocks/articles';
+@import 'blocks/footer';
