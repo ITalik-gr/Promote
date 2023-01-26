@@ -129,6 +129,9 @@ h3 {
             &_benifits {
                 max-width: 434px;
             }
+            &_office {
+                max-width: 525px;
+            }
         }
         &__subtitle {
             font-size: 15px;
@@ -154,7 +157,9 @@ h3 {
     }
 }
 
-
+.mt0 {
+    margin-top: 0!important;
+}
 @import 'blocks/header';
 @import 'blocks/services';
 @import 'blocks/about';
@@ -166,3 +171,5 @@ h3 {
 @import 'blocks/articles';
 @import 'blocks/footer';
 @import 'blocks/values';
+@import 'blocks/team';
+@import 'blocks/office';
