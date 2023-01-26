@@ -1,0 +1,103 @@
+.values {
+  background: #292930;
+  padding: 150px 0;
+  overflow: hidden;
+  &-wrap {
+    margin-top: 54px;
+    position: relative;
+  }
+  &-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+  }
+  &-btn {
+    &_1 {
+      border: 1.5px solid #FFFFFF;
+      margin-right: 28px;
+      width: 173px;
+      height: 63px;
+    }
+    &_2 {
+      width: 176px;
+      height: 64px;
+    }
+  }
+
+  &-card {
+    padding: 50px 40px;
+    width: 380.02px;
+    height: 477px;
+    background: linear-gradient(180deg, #36363E 0%, #292930 100%);
+    border: 1px solid #424245;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      width: 153px;
+      height: 153px;
+      background: #292930;
+      margin-bottom: 25px;
+      img {
+        max-width: 90px;
+      }
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 110.5%;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 14px;
+    }
+    &__descr {
+      text-align: center;
+      font-size: 18px;
+      line-height: 156.5%;
+      color: #D0D0D0;
+      margin-bottom: 45px;
+      max-width: 300px;
+    }
+    &__hr {
+      width: 80px;
+      border: 1.5px solid #FFFFFF;
+      border-radius: 4px;
+    }
+  }
+  &-slider {
+    &__arrow {
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 4;
+      background: #5956E8;
+      user-select: none;
+      &_prev {
+        left: -70px;
+      }
+      &_next {
+        right: -50px;
+        img {
+          transform: rotate(180deg);
+        }
+      }
+      &-disable {
+        background: #454545;
+      }
+    }
+  }
+}

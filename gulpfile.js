@@ -4,11 +4,8 @@ const sass        = require('gulp-sass');
 const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
-const imagemin = require('gulp-imagemin');
+// const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
-const webpack = require('webpack');
-const webpackStream = require('webpack-stream');
-const webpackConfig = require('./webpack.config');
 
 gulp.task('server', function() {
 
@@ -75,7 +72,6 @@ gulp.task('icons', function () {
 
 gulp.task('images', function () {
     return gulp.src("src/img/**/*")
-        .pipe(imagemin())
         .pipe(gulp.dest("dist/img"))
         .pipe(browserSync.stream());
 });

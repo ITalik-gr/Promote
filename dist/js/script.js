@@ -61,3 +61,14 @@ const swiper = new Swiper('.testi-swiper', {
 
 });
 
+const swiper2 = new Swiper('.values-swiper', {
+  slidesPerView: 3,
+  navigation: {
+    nextEl: '.values-slider__arrow_next',
+    prevEl: '.values-slider__arrow_prev',
+    disabledClass: 'values-slider__arrow-disable',
+  },
+
+});
+
+

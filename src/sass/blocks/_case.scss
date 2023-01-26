@@ -162,4 +162,17 @@
       max-width: 110px;
     }
   }
+
+  &-number {
+    background: #292930;
+    padding: 102px 0;
+    &-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .case-num {
+      padding: 0;
+    }
+  }
 }
