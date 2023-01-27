@@ -17,8 +17,14 @@
     align-items: center;
     flex-wrap: wrap;
   }
+  &-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &-card {
-    width: 352px;
+    max-width: 352px;
+    width: 100%;
     height: 475px;
     background: linear-gradient(180deg, #36363E 0%, #292930 100%);
     border: 1px solid #424245;
@@ -40,7 +46,7 @@
       justify-content: center;
       align-items: center;
       img {
-
+        max-width: 90px;
       }
     }
     &__title {
@@ -74,9 +80,43 @@
       }
     }
   }
-  &_single {
+  &_page {
     .services-top {
       justify-content: center;
     }
   }
+  &_single {
+    .services {
+      &-top {
+        justify-content: center;
+      }
+      &-card {
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 49px 40px;
+        max-width: 380px;
+        margin-bottom: 30px;
+        &__descr {
+          text-align: center;
+          max-width: 271px;
+        }
+        &__image {
+          margin-bottom: 25px;
+        }
+      }
+    }
+    &-btn {
+      width: 173px;
+      height: 63px;
+      color: #FFFFFF;
+      border: 1.5px solid #FFFFFF;
+      transition: .4s all;
+      margin-top: 20px;
+      &:hover {
+        color: #ffffffdf;
+        border: 1.5px solid #ffffffdf;
+      }
+    }
+  } 
 }
