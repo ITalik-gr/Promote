@@ -315,4 +315,18 @@
       font-weight: 800;
     }
   }
+  &_services {
+    background: linear-gradient(111.23deg, #CFD4FF 9.95%, #FFFFFD 85.17%);
+    .page-header-circul {
+      &_1 {
+        background: #7CFF99;
+      }
+      &_2 {
+        background: #EDFFBB;
+      }
+      &_3 {
+        background: #7DFFE8;
+      }
+    }
+  }
 }

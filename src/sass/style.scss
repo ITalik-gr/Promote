@@ -109,6 +109,10 @@ h3 {
             }
             &_service {
                 width: 620px;
+                &-2 {
+                    width: 781px;
+                    text-align: center;
+                }
             }
             &_about {
                 width: 460px;
@@ -173,3 +177,4 @@ h3 {
 @import 'blocks/values';
 @import 'blocks/team';
 @import 'blocks/office';
+@import 'blocks/growing';

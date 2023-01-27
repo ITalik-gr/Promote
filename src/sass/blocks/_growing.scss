@@ -1,0 +1,90 @@
+.growing {
+  padding-top: 141px;
+  &-card {
+    background: linear-gradient(111.23deg, #E9F7FF 9.95%, #FFDBD5 85.17%);
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding-left: 69px;
+
+    &__text {
+
+    }
+    &__title {
+      font-weight: 800;
+      font-size: 45px;
+      line-height: 110.5%;
+      color: #292930;
+      margin-bottom: 56px;
+      max-width: 588px;
+      span {
+        color: #5956E8;
+        font-weight: 800;
+      }
+    }
+
+
+  }
+  &-btns {
+    display: flex;
+  }
+  &-btn {
+    &_1 {
+      width: 173px;
+      height: 63px;
+      margin-right: 28px;
+    }
+    &_2 {
+      width: 171px;
+      height: 64px;
+    }
+  }
+
+  &-circl {
+    width: 539.52px;
+    height: 539.52px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    position: absolute;
+    top: -62px;
+    right: -111px;
+    &::before {
+      content: '';
+      width: 352.46px;
+      height: 352.46px;
+      background: #CFDDEC;
+      filter: blur(100px);
+      border-radius: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &-image {
+    position: absolute;
+    &_roc {
+      transform: rotate(-45deg);
+      top: 56px;
+      left: -11px;
+      z-index: 2;
+    }
+    &_bow {
+      right: 134px;
+      bottom: 119px;
+      z-index: 2;
+    }
+    &_patern {
+      left: 83px;
+      bottom: 104px;
+      max-width: 321.41px;
+    }
+    &_star {
+      top: 204px;
+      right: 157px;
+    }
+  }
+}
