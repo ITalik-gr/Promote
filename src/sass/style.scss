@@ -108,14 +108,17 @@ h3 {
                 color: #FFFFFF;
             }
             &_service {
-                width: 620px;
+                max-width: 620px;
                 &-2 {
                     width: 781px;
                     text-align: center;
                 }
             }
             &_about {
-                width: 460px;
+                max-width: 460px;
+                &-service {
+                    max-width: 525px;
+                }
             }
             &_proccess {
                 text-align: center;
@@ -178,3 +181,5 @@ h3 {
 @import 'blocks/team';
 @import 'blocks/office';
 @import 'blocks/growing';
+@import 'blocks/about-service';
+@import 'blocks/process'

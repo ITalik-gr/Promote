@@ -1,0 +1,107 @@
+.process {
+  &-wrap {
+    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #FFF3CA 103.42%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 148px 115px;
+  }
+  &-text {
+    max-width: 475.64px;
+  }
+  &-info {
+    max-width: 444px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    color: #292930;
+    margin-bottom: 18px;    
+  }
+  &__descr {
+    font-size: 18px;
+    line-height: 28px;
+    color: #555555;
+    max-width: 475px;
+    margin-bottom: 30px;
+  }
+  &__hr {
+    border: 0.5px solid #CFCFCF;
+    margin-bottom: 25px;
+  }
+  &-list {
+    &__item {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      text-transform: capitalize;
+      color: #555555;
+      margin-bottom: 25px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__image {
+      margin-right: 26px;
+      width: 136px;
+      height: 86px;
+      background: #FFFFFF;
+      border: 9px solid #FFD1C8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      position: relative;
+      z-index: 3;
+      &::after {
+        content: '';
+        width: 100px;
+        height: 1.5px;
+        border: 1.5px dashed #E38676;
+        position: absolute;
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%) rotate(90deg);
+        z-index: 1;
+      }
+      img {
+
+      }
+    }
+    &__text {
+
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 110.5%;
+      color: #292930;
+      margin-bottom: 13px;
+    }
+    &__descr {
+      font-size: 18px;
+      line-height: 156.5%;
+      color: #555555;
+    }
+
+  }
+}
+
+.an::after {
+  display: none;
+}
